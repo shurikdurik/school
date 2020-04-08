@@ -1,0 +1,275 @@
+html {
+    font-size: 16px;
+    background-color: rgb(172, 172, 172);
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+/* Шапка */
+header {
+    display: flex;
+    width: auto;
+    height: 64px;
+    background-color: rgb(253, 253, 253);
+}
+
+.logo {
+    display: flex;
+    font-size: 2rem;
+    margin-left: 24px;
+    align-items: center;
+    color: rgb(172, 172, 172);
+    width: 40%;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.logo span {
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+}
+
+.navigator {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 24px;
+    font-size: 1rem;
+
+}
+
+.navigator ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 16px;
+}
+
+.navigator a {
+    color: black;
+    transition: 0.2s linear 0.1s;
+}
+
+.navigator a:hover {
+    font-size: 1.5rem;
+}
+
+/* Баннер */
+
+.underheading {
+    display: flex;
+    height: 500px;
+}
+
+.underheading .banner {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.underheading .banner img {
+    object-fit: cover;
+    width: 100%;
+    height: 430px;
+}
+
+.underheading .text {
+    width: 40%;
+    margin-right: 82px;
+}
+
+.underheading p {
+    font-size: 2.5rem;
+}
+
+.underheading h2 {
+    font-weight: normal;
+}
+
+.underheading .button {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    transition: 0.1s linear 0.1s;
+}
+
+.underheading a {
+    color: white;
+}
+
+.underheading .button:hover {
+    background-color: grey;
+}
+
+/* Информация */
+
+.info {
+    display: flex;
+    background-color: white;
+    height: 700px;
+}
+
+.info .left {
+    width: 60%;
+    margin: 32px 24px;
+    
+}
+
+.info .left img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.info .right {
+    width: 40%;
+}
+
+.info .right {
+    display: inline;
+}
+
+.info .date {
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(172, 172, 172);
+    border-top: 1px solid white;
+    padding-top: 32px;
+    padding-left: 12px;
+}
+
+.info .campus {
+    display: flex;
+    border: 1px solid rgb(172, 172, 172);
+    padding: 12px;
+}
+
+.info .guest {
+    display: flex;
+    border: 1px solid rgb(172, 172, 172);
+    background-color: rgb(172, 172, 172);
+    padding: 12px;
+}
+
+.info .right .image {
+    width: 35%;
+}
+
+.info .right .text {
+    width: 65%;
+    margin-left: 24px;
+}
+
+.info .right img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.info h4 {
+    font-weight: normal;
+}
+
+/* Обучение */
+
+.start  {
+    display: inline;
+    padding: 32px auto;
+    text-align: center;
+}
+
+.courses {
+    display: inline-block;
+}
+
+.courses img {
+    object-fit: cover;
+    width: 100%;
+    height: 230px;
+}
+
+.courses .firstline {
+    display: flex;
+    padding: 0 32px;
+}
+
+.courses .secondline {
+    display: flex;
+    padding: 0 32px;
+}
+
+#whit {
+   background-color: white;
+   margin: 32px;
+}
+
+.courses .text {
+    padding: 16px 16px 24px 16px;
+}
+
+.courses h3 {
+    font-weight: normal;
+}
+.courses h4 {
+    font-weight: normal;
+}
+
+
+/* Медиа */
+
+.thesis {
+    display: inline;
+    padding: 32px auto;
+    text-align: center;
+    background-color: white;
+}
+
+video {
+    width: 600px;
+    height: auto;
+}
+
+.info .fisma {
+    display: flex;
+    width: 100%;
+    padding-top: 32px;
+    padding-left: 12px;
+    background-color: rgb(172, 172, 172);
+}
+
+.info .nowandthen {
+    display: flex;
+    padding: 12px;
+}
+
+/* Низ */
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid grey;
+}
+
+.footerright ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 16px;
+}
+
+.footerright {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footerleft {
+    width: 40%;
+}
